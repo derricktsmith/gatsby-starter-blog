@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Derrick's Blog`,
     author: `Derrick Smith`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog by Derrick Smith.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `derricktsmith`
@@ -64,7 +64,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`
+        icon: `content/assets/logo-check.png`
       }
     },
     `gatsby-plugin-offline`,
