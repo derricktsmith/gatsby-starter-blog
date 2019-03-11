@@ -34,7 +34,7 @@ function Bio() {
               Written by <strong>{author}</strong> who lives and works in Alamo,
               TN as a youth minister and aspiring web developer.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
+              <a href={`https://twitter.com/derricktsmith`}>
                 You should follow him on Twitter
               </a>
             </p>
@@ -47,7 +47,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/whoa-copy.jpg/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
